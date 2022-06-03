@@ -1,0 +1,36 @@
+{
+  "name": "aks-workload-api",
+  "version": "1.0.0",
+  "description": "AKS sample workload to reach On-Premises REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaki-Microsoft/aks-workload-api.git"
+  },
+  "keywords": [
+    "AKS",
+    "Workload",
+    "Node.js",
+    "Axios"
+  ],
+  "author": "Zaki Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaki-Microsoft/aks-workload-api/issues"
+  },
+  "homepage": "https://github.com/Zaki-Microsoft/aks-workload-api#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
